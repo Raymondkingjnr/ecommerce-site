@@ -4,6 +4,7 @@ import { GiHook } from "react-icons/gi";
 import { BsSearch, BsInstagram } from "react-icons/bs";
 import { ImGooglePlus } from "react-icons/im";
 import { FaFacebookF, FaPinterestP } from "react-icons/fa";
+import { IoIosArrowDropdown, IoIosArrowDropup } from "react-icons/io";
 import "./Nav.css";
 
 function Nav({ watch, shoe, pants }) {
@@ -29,7 +30,7 @@ function Nav({ watch, shoe, pants }) {
             FLOCKY{" "}
             <span>
               <GiHook />
-            </span>
+            </span>{" "}
             HOOKS
           </h1>
         </div>
@@ -52,6 +53,7 @@ function Nav({ watch, shoe, pants }) {
                   onClick={() => setWatchs(!watchs)}
                 >
                   {category}
+                  {watchs ? <IoIosArrowDropdown /> : <IoIosArrowDropup />}
                 </button>
                 {watchs && (
                   <div className="dropdown--content">
@@ -75,6 +77,7 @@ function Nav({ watch, shoe, pants }) {
                   onClick={() => setShoe(!shoes)}
                 >
                   {category}
+                  {shoes ? <IoIosArrowDropdown /> : <IoIosArrowDropup />}
                 </button>
                 {shoes && (
                   <div className="dropdown--content">
@@ -102,6 +105,7 @@ function Nav({ watch, shoe, pants }) {
                   onClick={() => setPants(!pant)}
                 >
                   {category}
+                  {pant ? <IoIosArrowDropdown /> : <IoIosArrowDropup />}
                 </button>
                 {pant && (
                   <div className="dropdown--content">

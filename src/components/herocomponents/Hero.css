@@ -1,0 +1,60 @@
+.border--bottom {
+  border-bottom: 2px groove white;
+  width: 50px;
+  margin-left: 4.5rem;
+}
+.hero {
+  width: 100%;
+  margin: auto;
+}
+.hero--section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  max-width: 1300px;
+  margin: 5rem auto;
+  height: min-content;
+  background-color: #9e9e9e;
+  box-shadow: 9px 8px 45px 40px rgba(0, 0, 0, 0.79) inset;
+  -webkit-box-shadow: 9px 8px 45px 40px rgba(0, 0, 0, 0.79) inset;
+  -moz-box-shadow: 9px 8px 45px 40px rgba(0, 0, 0, 0.79) inset;
+}
+.hot--deal {
+  text-align: center;
+  margin-left: 9rem;
+  margin-top: 9rem;
+  padding: 10px;
+}
+.hot--deal p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.hot--deal h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.btn--hero {
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(36, 34, 34);
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.btn--hero:hover {
+  cursor: pointer;
+}
+.hot--deal h4 {
+  margin-bottom: 0;
+}
+.baner img {
+  width: 100%;
+  filter: drop-shadow(37px 4px 33px #000);
+}
+.baner {
+  margin-top: 2rem;
+}
