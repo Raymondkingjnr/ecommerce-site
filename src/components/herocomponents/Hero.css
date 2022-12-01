@@ -3,6 +3,7 @@
   width: 50px;
   margin-left: 4.5rem;
 }
+
 .hero {
   width: 100%;
   margin: auto;
@@ -12,7 +13,7 @@
   justify-content: space-between;
   padding: 30px;
   max-width: 1300px;
-  margin: 5rem auto;
+  margin: 2rem auto;
   height: min-content;
   background-color: #9e9e9e;
   box-shadow: 9px 8px 45px 40px rgba(0, 0, 0, 0.79) inset;
@@ -40,10 +41,6 @@
   color: #ffff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
 }
 .btn--hero:hover {
   cursor: pointer;
@@ -52,9 +49,103 @@
   margin-bottom: 0;
 }
 .baner img {
-  width: 100%;
+  width: 70%;
   filter: drop-shadow(37px 4px 33px #000);
 }
 .baner {
   margin-top: 2rem;
+  position: relative;
+}
+/* General */
+.btn {
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  line-height: 2px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*  */
+
+.down {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  max-width: 1360px;
+  margin: auto;
+}
+
+.bg-cap {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9e9e9e;
+  width: 100%;
+  margin-bottom: 2rem;
+  height: 300px;
+  position: relative;
+}
+.bg-cap img {
+  width: 50%;
+  object-fit: contain;
+}
+.inner-text-cap {
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+/*  */
+
+.bg-watch {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+  height: 300px;
+}
+.bg-watch img {
+  width: 50%;
+  object-fit: contain;
+
+  margin-bottom: 5%;
+}
+.inner-text-watch {
+  right: 2%;
+  margin-top: 4rem;
+  padding: 10px;
+  margin-right: 3rem;
+  text-align: right;
+}
+.btn-cap {
+  width: 150px;
+  background: #000;
+  color: white;
+}
+.btn-watch {
+  width: 150px;
+  background: #000;
+  border: #ffff solid;
+  color: #ffff;
 }
