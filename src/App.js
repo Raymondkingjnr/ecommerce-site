@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./components/Navcomponenets/Nav.js";
 import Hero from "./components/herocomponents/Hero.js";
 import "./App.css";
@@ -12,6 +13,9 @@ import { pants } from "./Data/data";
 function App() {
   return (
     <div>
+      <BrowserRouter>
+        <Routes></Routes>
+      </BrowserRouter>
       <Nav watch={watch} shoe={shoe} pants={pants} />
       <Hero image={image} cap={cap} wrist={wrist} />
     </div>
